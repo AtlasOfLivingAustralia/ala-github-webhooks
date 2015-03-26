@@ -6,7 +6,7 @@ At the moment this project is used to rebuild/refresh/update the [ALA build stat
   - [nodejs](https://nodejs.org)
   - [githubhook](https://github.com/nlf/node-github-hook)
 - wget, curl, sed, grep, git (most of the time already installed)
-- env variables
+- env variables (**TODO:** replace the env vars with a config file, for easier setup/use)
   - `GIST_TOKEN` (used by the BASH scripts for authentication/REST comm, and to clone/commit/push the build status summary table gist) *NOTE: These scripts used to run from travis-ci.org and a gist token (although encrypted) is considered less dangerous (as in more restricted) than a github token* if stolen/compromised
   - `GITHUB_WEBHOOKS_SECRET` (used by the node listener, this has to be set to the value you configured in github webhooks configuration)
 - nginx, apache2, etc. - some webserver capable of proxying to your event listener/handler (or you need to open a dedicated TCP port for receiving the event messages from github)
