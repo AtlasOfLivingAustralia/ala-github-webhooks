@@ -1,4 +1,4 @@
-###github-webhooks
+###ala-github-webhooks
 At the moment this project is used to rebuild/refresh/update the [ALA build status summary table](https://gist.github.com/mbohun/ee2345d4c8a80ede2628#file-ala_build_summary_with_emoji-md) included from https://atlasoflivingaustralia.github.io when a travis-ci "build finished" event is received.
 
 ###requirements
