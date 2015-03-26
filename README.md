@@ -15,7 +15,5 @@ At the moment this project is used to rebuild/refresh/update the [ALA build stat
 Through the github web ui or via github REST API you need to setup/configure on what host:port is your webhook listener listening, and which github events you want to be receiving
 
 ###TODO: finish this; fill it with the exciting details about github webhooks/event configuration
-
-###listener installation
-
-###TODO:
+- package this like a standard nodejs app (so people can install it with `npm install ala-github-webhooks`
+- add standard UNIX/Linux service scripts; use [forever](https://github.com/foreverjs/forever) for daemon support
